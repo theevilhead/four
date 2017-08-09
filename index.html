@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/assets/styles/style.css">
+</head>
+<body>
+
+<div id="app">
+	<div class="app-wrap">
+		<div class="keys">
+			<div class="row first">
+				<button id="UP">.</button>
+			</div>
+			<div class="row second">
+				<button id="LEFT">.</button>
+				<button id="RIGHT">.</button>
+			</div>
+			<div class="row third">
+				<button id="DOWN">.</button>
+			</div>
+		</div>
+	</div>
+	<center><small> Use arrow keys or Click on the letters to make a perfect four letter word.</small></center>
+	<div class="board" id="board">
+		<div id="UP_L" class="letter"></div>
+		<div id="RIGHT_L" class="letter"></div>
+		<div id="DOWN_L" class="letter"></div>
+		<div id="LEFT_L" class="letter"></div>
+	</div>
+</div>
+
+<div id="progress-bar" data-percent="30%">
+	<div class="bar" id="bar">
+	</div>
+</div>
+
+<center><h1 id="score">00</h1></center>
+
+<!-- <script src="https://vuejs.org/js/vue.js"></script> -->
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
