@@ -13,7 +13,7 @@ var timer_obj;
 var timer_start,timer_end;
 
 var nalku = {};
-nalku.wordsList = ['four','palm','five','jazz','buzz','fuzz','fizz','jump','quiz','jack','zyme','whiz','joke','java','jerk','fuze','putz','quip','jeep','flux','john','jury','jobs','nuts'];
+nalku.wordsList = ['four','palm','five','jazz','buzz','fuzz','fizz','jump','quiz','jack','zyme','whiz','joke','java','jerk','fuze','putz','quip','jeep','flux','john','jury','jobs','nuts','jazz','fuzz','jinx','jock','java','jive','zinc'];
 nalku.currentWord = [];
 nalku.wordIndex = 0;
 nalku.wordsCompleted = 0;
